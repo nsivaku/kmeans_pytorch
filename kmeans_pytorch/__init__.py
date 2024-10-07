@@ -31,7 +31,7 @@ def kmeans(
         cluster_centers=[],
         tol=1e-4,
         tqdm_flag=True,
-        iter_limit=0,
+        iter_limit=15,
         device=torch.device('cpu'),
         gamma_for_soft_dtw=0.001,
         seed=None,
